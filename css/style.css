@@ -1,0 +1,52 @@
+*{
+    font-family: 'Segoe UI';
+}
+
+.nav-item{
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #6A5ACD;
+}
+.nav-item img{
+    width: 20px;
+}
+
+
+.user{
+    padding-bottom: 30px;
+}
+
+.user img{
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.title h1{
+    margin: 55px 20px 20px 20px;
+    font-size: 30px;
+}
+
+.periodo img{
+    width: 30px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.periodo{
+    display: flex;
+    flex-direction: row;
+    background-color: #6A5ACD;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+}
+.periodo p{
+    color: white;
+}
+
+.periodo p, .periodo input, .periodo img{
+    margin-right: 10px;
+}
