@@ -2,46 +2,38 @@
     font-family: 'Segoe UI';
 }
 
-.nav-item{
-    margin: 5px;
-    border-radius: 5px;
-    padding-left: 10px;
-    background-color: #6A5ACD;
-}
-.nav-item img{
-    width: 20px;
-}
-
-
-.user{
-    padding-bottom: 30px;
-}
-
-.user img{
-    width: 30px;
-    border-radius: 50%;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-}
-
 .title h1{
-    margin: 55px 20px 20px 20px;
+    margin: 70px 20px 20px 20px;
     font-size: 30px;
 }
 
 .periodo img{
-    width: 30px;
+    height: 35px;
     background-color: white;
     border-radius: 3px;
     padding: 5px;
+    margin-top: -1px;
+    
+}
+
+.periodo input{
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(54, 53, 53);
+    font-weight: 500;
+    height: 35px;
 }
 
 .periodo{
     display: flex;
     flex-direction: row;
     background-color: #6A5ACD;
-    height: 60px;
-    padding: 10px;
+    height: 80px;
+    padding: 20px 10px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 .periodo p{
     color: white;
@@ -49,4 +41,39 @@
 
 .periodo p, .periodo input, .periodo img{
     margin-right: 10px;
+}
+
+.card{
+    border: none;
+    height: 10rem;
+    width: 23rem;
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+
+    color: white;
+}
+
+.conteiner{
+    margin-bottom: 100px;
+}
+
+.card-body{
+   font-weight: 500; 
+}
+
+.card-1, .card-4{
+    background-position: right;
+    background-image: url(../img/information.png);
+    background-color: #17A0BC;
+}
+
+.card-2, .card-5{
+    background-image: url(../img/credit-card.png);
+    background-color: #27A844;
+}
+
+.card-3, .card-6{
+    background-image: url(../img/money-2.png);
+    background-color: #6F42C1;
 }
